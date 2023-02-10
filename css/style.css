@@ -1,0 +1,1127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ContenedorOne: #fef2f2;
+  --Circulo: #f26440;
+  --CiruloGrande: #286f6c;
+  --GreyColor: #adadad;
+  --Body-Color: #ffffff;
+  --ContenedorGresy: #f9f5f2;
+  --textColor: #34B0BE;
+  --Contenedor: #242635;
+}
+
+/* Movil Deskot  */
+
+/* Navegacion  */
+
+body {
+  background-color: var(--Body-Color);
+  font-size: 16px;
+}
+
+body.dark{
+  --Contenedor: rgba(241, 241, 116, 0.986);
+  --Body-Color: black ;
+}
+
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*.Contenedor-Encabezado {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}*/
+
+/*.Navegacion {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}*/
+
+.Cambio{
+  width: 100px;
+  margin-top: -60px;
+  margin-left: 20px;
+}
+
+.Parrafo-Close{
+  color: var(--Body-Color);
+}
+
+.Contenedor-Listas {
+  display: none;
+}
+
+.Contenedor-Listas2 {
+  list-style-type: none;
+  padding: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+
+.Hamburguer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.Svg {
+  background-color: #34B0BE;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0);
+}
+
+.Svg svg {
+  background-color: #f26440;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 3);
+}
+
+.Img-Nav img {
+  width: 80px;
+  position: relative;
+  bottom: 2px;
+}
+
+.Nombre p {
+  width: 100px;
+}
+
+.Span1 {
+  color: var(--Body-Color);
+}
+
+.Span2 {
+  color: orange;
+}
+
+
+
+.IconoHamburguesa {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgb(243, 240, 240);
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  transition: 0.5s linear;
+
+}
+
+.IconoHamburguesa.hide {
+  left: 100%;
+}
+
+/* Encabezado Final */
+
+.HomeContenedor {
+  background-color: var(--Contenedor);
+  height: 669px;
+  width: 100%;
+  color: var(--textColor);
+}
+
+.Developer {
+  text-align: center;
+  color: var(--GreyColor);
+  margin-bottom: 40px;
+}
+
+.hr {
+  width: 60%;
+  margin: auto;
+}
+
+
+
+
+.Ciculo {
+  background-color: var(--CiruloGrande);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.You-Imagen img {
+  width: 200px;
+  margin-top: -260px;
+
+}
+
+.Vectores-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.Name {
+  width: 300px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
+  font-size: 2rem;
+
+  height: 110px;
+}
+
+.Redes-Sociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: rem;
+  margin-bottom: 50px;
+}
+
+.Iconos {
+  background-color: var(--Circulo);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Iconos:hover{
+  background-color: orange;
+}
+
+.Iconos img {
+  width: 30px;
+}
+
+.AcercaYou {
+  padding: 2rem;
+   
+}
+
+.AcercaYou h2 {
+  font-size: 2rem;
+}
+
+/*Conedor main  */
+
+.Ciculo-Grande {
+  background-color: var(--CiruloGrande);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0);
+}
+
+.Circulo-pequeño {
+  background-color: var(--Circulo);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -50px;
+  left: 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0);
+}
+
+.Habilidad {
+  width: 250px;
+  color: var(--Body-Color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Habilidad h2 {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.Carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.images {
+  text-align: center;
+}
+
+.images h2 {
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+}
+
+
+
+.MiExperiencia {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centrar h3 {
+  text-align: center;
+  color: var(--Body-Color);
+  font-size: 22px;
+
+
+}
+
+.Carruseltwo {
+  width: 150px;
+  position: absolute;
+  bottom: -150px;
+  left: 60px;
+}
+
+
+
+.imgTecnologias {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+/* Modal Casero  */
+
+.Modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 109, 109, 0.737);
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.Contenedor-modal {
+  width: 80%;
+  height: 70%;
+  background-color: #242635;
+  color: var(--Body-Color);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: 4s linear;
+  border: var(--textColor) solid;
+}
+
+
+.Modal.Limpio {
+  left: 100%;
+}
+
+
+
+/* Modal Dos  */
+
+.Modaldos {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 109, 109, 0.737);
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+
+.Modaldos.LimpioDos {
+  left: 100%;
+}
+
+/* Modal Tres  */
+
+.ModalTres {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 109, 109, 0.737);
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.ModalTres.LimpioTres {
+  left: 100%;
+}
+
+/* ModalCuatro  */
+
+.ModalCuatro {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 109, 109, 0.737);
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.ModalCuatro.LimpioCuatro {
+  left: 100%;
+}
+
+.ModalCinco {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 109, 109, 0.737);
+  position: fixed;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.ModalCinco.LimpioCinco {
+  left: 100%;
+}
+
+.ModalSeis {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 109, 109, 0.737);
+  position: fixed;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.ModalSeis.LimpioSeis {
+  left: 100%;
+}
+
+.Title-Experciencia {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--textColor);
+}
+
+.ModalComplet {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #242635;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0.3);
+  margin-bottom: 50px;
+  border-radius: 8px;
+  border: #242635 solid;
+}
+.TituloCard {
+  background-color: #34B0BE;
+  color: var(--Body-Color);
+  border-radius: 8px;
+}
+
+
+
+
+.ModalCompletDos {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+ background-color: #242635;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0.3);
+  border-radius: 8px;
+  border: #242635 solid;
+
+}
+
+.ModalCompletTres {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+ background-color: #242635;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0.3);
+  border-radius: 8px;
+  border: #242635 solid;
+}
+
+.ModalCompletCuatro {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #242635;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0.3);
+  border-radius: 8px;
+  border: #242635 solid;
+}
+
+.ModalCompletCinco {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #242635;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0.3);
+  border-radius: 8px;
+  border: #242635 solid;
+}
+
+.ModalCompletSeis {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #242635;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0.3);
+  border-radius: 8px;
+  border: #242635 solid;
+}
+
+.TituloCard {
+  text-align: center;
+  padding: 1rem;
+}
+
+.Proyectos {
+  width: 250px;
+  border: #0ad3ab solid;
+}
+
+.ImagenProyectos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+
+.ButonI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ButonI button {
+  width: 150px;
+  height: 30px;
+  background-color: var(--Circulo);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0.3);
+}
+
+/* Modal Por Dentro  */
+
+.ButonClose {
+  position: relative;
+  bottom: -200px;
+}
+
+.ButonClose button {
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: rgb(245, 56, 56);
+  color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+
+
+.Contenedor-Close {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  margin-bottom: 20px;
+}
+
+.Contenedor-Close h3 {
+  color: #34B0BE;
+}
+
+
+.Parrafo-Close {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.imgTecnologias2 {
+  width: 40px;
+  position: relative;
+  animation: iconos 3s infinite;
+}
+
+.imgTecnologias3 {
+  width: 80px;
+  position: relative;
+  animation: iconos 3s infinite;
+}
+
+.imgTecnologias4 {
+  width: 35px;
+  position: relative;
+  animation: iconos 3s infinite;
+}
+
+.imgTecnologiasR {
+  width: 40px;
+  position: relative;
+  animation: iconos 3s infinite;
+}
+
+/* Movimiento  */
+
+@keyframes iconos {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -10px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.Used {
+  margin-bottom: 20px;
+}
+
+.Tecnologias-img {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 20px;
+}
+
+.Links-Proyects a i {
+  color: black;
+}
+
+.Links-Proyects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Titulo-Proyect {
+  margin-bottom: 20px;
+}
+
+.Ancor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c6c4c4;
+}
+
+.Ancor:hover {
+  background-color: rgb(161, 199, 246);
+}
+
+/* Progreso  
+
+.Contenedor-Progreso{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.progress{
+  width: 300px;
+  margin-bottom: 30px ;
+}
+
+.Progreso-Experiencia{
+  margin-bottom: 20px;
+  text-align: center;
+  color: #34B0BE;
+}
+
+.BarrasTecnologias{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12.5rem;
+
+}
+
+.Number{
+  color: var(--textColor);
+} 
+*/
+
+/* Contacto */
+
+.Contenedor-Contacto {
+  background-color: var(--Contenedor);
+  text-align: center;
+
+
+
+}
+
+.ContactoTittle {
+  color: var(--textColor);
+  margin-bottom: 20px;
+}
+
+.Texto-Contacto {
+  color: var(--textColor);
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+.Iconosfinales {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+
+
+}
+
+.phone {
+  width: 130px;
+  background-color: #adadad;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgb(103, 102, 102);
+
+}
+
+.phone p {
+  font-size: 14.5px;
+}
+
+.email {
+  width: 130px;
+  background-color: #adadad;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 8px rgb(103, 102, 102);
+}
+
+.email p {
+  font-size: 12px;
+}
+
+.Name-Movimiento {
+  display: none;
+}
+
+.GaleriaTecno {
+  display: none;
+}
+
+.Curriculo{
+  background: orange;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  color: black;
+  border: 0;
+}
+
+.Curriculo:hover{
+  background-color: rgb(246, 168, 25);
+}
+.Texto-Contacto h5{
+  margin-bottom: 20px;
+}
+
+/* Media queris */
+
+@media screen and (min-width:768px) {
+
+
+  .Hamburguer svg {
+    display: none;
+  }
+
+  .Contenedor-Listas {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 2rem;
+    gap: 1.5rem;
+    background-color: #34B0BE;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0);
+    width: 100%;
+
+  }
+
+  .Contenedor-Listas li a {
+    color: rgb(56, 55, 55);
+  }
+
+
+  .Componente-Superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    gap: 1.5rem;
+  }
+
+  .Ciculo {
+    width: 350px;
+    height: 350px;
+  }
+
+  .Vectores-img {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .You-Imagen img {
+    width: 300px;
+    margin-top: -400px;
+  }
+
+  .Name-Movimiento {
+    text-align: center;
+    width: 29ch;
+    display: block;
+    margin: auto;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    animation: typings 2s steps(29), blink .5s infinite step-end alternate;
+    overflow: hidden;
+  }
+
+  @keyframes typings {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .Titulo-Galeria {
+    width: 12ch;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    animation: typings 2s steps(29), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+
+  .AcercaYou {
+    text-align: center;
+    
+  }
+
+  .Section-Habilidades {
+    display: none;
+  }
+  
+  .Title-Experciencia{
+     margin-bottom: 40px;
+     color: black;
+  }
+
+  .GaleriaContenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 430px;
+    background: linear-gradient(45deg, #7f00ff, pink);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0);
+    margin-bottom: 20px;
+
+
+  }
+
+  .GaleriaContenedor img {
+    width: 0px;
+    height: 300px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+
+  }
+
+  .GaleriaContenedor img:hover {
+    cursor: crosshair;
+    width: 380px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+
+  .GaleriaTecno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .Grid-Contenedores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  /* Footer */
+
+  .Iconosfinales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3.5rem;
+  }
+
+  .phone{
+    margin-bottom: 40px;
+  }
+
+
+
+
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+
+  .Name {
+    font-size: 50px;
+    width: 500px;
+    margin-bottom: 50px;
+  }
+
+  .You-Imagen img {
+    position: relative;
+    animation: Circulo 5s infinite;
+  }
+
+  @keyframes Circulo {
+    0% {
+      top: 0;
+    }
+
+    50% {
+      top: -10px;
+    }
+
+    100% {
+      top: 0;
+    }
+  }
+
+
+
+  .Contenedor-Listas {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  .AcercaYou p {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .SpanOne {
+    color: var(--textColor);
+  }
+
+  .Componente-Superior {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 7rem;
+  }
+
+  .GaleriaContenedor {
+    background: linear-gradient(45deg, #7f00ff, pink);
+    width: 500px
+  }
+
+  .Ciculo {
+    width: 400px;
+    height: 400px;
+  }
+
+  .GaleriaTecno {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 60px;
+  }
+
+  .Titulo-Galeria {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .Grid-Contenedores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  /* Modales  */
+
+  .ModalComplet {
+    background-color: #242635;
+    color: var(--textColor);
+
+  }
+
+  .ModalCompletDos {
+    background-color: #242635;
+    color: var(--textColor);
+  }
+
+  .ModalCompletTres {
+    background-color: #242635;
+    color: var(--textColor);
+  }
+
+  .ModalCompletCuatro {
+    background-color: #242635;
+    color: var(--textColor);
+  }
+
+  .ModalCompletCinco {
+    background-color: #242635;
+    color: var(--textColor);
+  }
+
+  .ModalCompletSeis {
+    background-color: #242635;
+    color: var(--textColor);
+  }
+
+  .Proyectos {
+    width: 200px;
+    height: 120px;
+    margin-bottom: 45px;
+  }
+
+  .ButonI {
+     border: 0;
+  }
+
+  .Contenedor-modal {
+    width: 50%;
+    left: 25%;
+    background-color: #242635;
+    color: var(--Body-Color);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0);
+
+  }
+
+  .TituloCard {
+    background-color: #34B0BE;
+    color: var(--Body-Color);
+    border-radius: 8px;
+  }
+
+  .Title-Experciencia {
+    color: black;
+  }
+
+  .Iconosfinales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4.5rem;
+  }
+
+  .phone {
+    margin-bottom: 40px;
+  }
+
+  .Cambio{
+    width: 100px;
+    margin-top: -60px;
+    margin-left: -140px;
+   
+  }
+
+  .Cambio i {
+    color: orange;
+  }
+
+
+
+
+
+
+
+
+}
