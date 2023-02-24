@@ -13,6 +13,7 @@
   --ContenedorGresy: #f9f5f2;
   --textColor: #34B0BE;
   --Contenedor: #242635;
+  --Body-Color2: #ffffff;
 }
 
 /* Movil Deskot  */
@@ -26,7 +27,8 @@ body {
 
 body.dark{
   --Contenedor: rgba(241, 241, 116, 0.986);
-  --Body-Color: black ;
+  --Body-Color2: #ffffff;
+  --Body-Color: #242635;
 }
 
 
@@ -52,9 +54,12 @@ li a {
   margin-top: -60px;
   margin-left: 20px;
 }
+.home{
+  color: #f26440;
+}
 
 .Parrafo-Close{
-  color: var(--Body-Color);
+  color: var(--Body-Color2);
 }
 
 .Contenedor-Listas {
@@ -786,6 +791,9 @@ li a {
   .Hamburguer svg {
     display: none;
   }
+  .home{
+    color: #f26440;
+  }
 
   .Contenedor-Listas {
     display: block;
@@ -954,6 +962,13 @@ li a {
     font-size: 50px;
     width: 500px;
     margin-bottom: 50px;
+  }
+  .home {
+    color: orange;
+  }
+  
+  .Parrafo-Close{
+    color: var(--Body-Color2);
   }
 
   .You-Imagen img {

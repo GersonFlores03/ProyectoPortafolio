@@ -11,6 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
             </div>
             <div class="Navegacion">
               <ul class="Contenedor-Listas2">
-                <li><a href="#Home">Home</a></li>
+                <li><a href="#Home"> Home</a></li>
                 <li><a href="#About">Acerca de mi</a></li>
                 <li><a href="#Abilities">Mis hablilidades</a></li>
                 <li><a href="#Portafolios">Portafolios</a></li>
@@ -61,7 +62,7 @@
     <div class="Perfil">
       <section class="HomeContenedor" id="Home">
         <ul class="Contenedor-Listas">
-          <li><a href="#Home">Home</a></li>
+          <li><a  href="#Home"> <span class="home"> Home </span> </a></li>
           <li><a href="#About">Acerca de mi</a></li>
           <li><a href="#Abilities">Mis hablilidades</a></li>
           <li><a href="#Portafolios">Portafolios</a></li>
@@ -145,7 +146,7 @@
       <div class="SectionTecnologias">
         <h4 class="Titulo-Galeria">Tecnologias</h4>
 
-        <section class="GaleriaContenedor">
+        <section data-aos="flip-left" class="GaleriaContenedor">
 
           <img class="Galeria" src="./Galery/HtmlGaleria.webp" alt="">
           <img class="Galeria" src="./Galery/Css.galeria.webp" alt="">
@@ -156,7 +157,7 @@
       </div>
       <div class="SectionLibrerias">
         <h4 class="Titulo-Galeria">Librerias</h4>
-          <section class="GaleriaContenedor">
+          <section data-aos="flip-right" class="GaleriaContenedor">
           <img src="./Galery/bootstrapGaleria.png" alt="">
           <img src="./Galery/ReactBoostrarpGaleria.png" alt="">
         </section>
@@ -315,7 +316,7 @@
         </div>
       </div>
       <div class="Grid-Contenedores">
-        <div class="ModalComplet" id="ModalComplet">
+        <div data-aos="fade-up"  class="ModalComplet " id="ModalComplet">
           <h5 class="TituloCard">Ecommerce-JavaScript</h5>
           <div class="ImagenProyectos">
             <img class="Proyectos" src="./Imágenes/Ecomerceimg.jpg" alt="">
@@ -325,7 +326,7 @@
           </div>
 
         </div>
-        <div class="ModalCompletDos" id="ModalCompletDos">
+        <div data-aos="fade-up" class="ModalCompletDos" id="ModalCompletDos">
           <h5 class="TituloCard">Weather App</h5>
           <div class="ImagenProyectos">
             <img class="Proyectos" src="./Imágenes/TiempoMundo.jpg" alt="">
@@ -335,7 +336,7 @@
           </div>
         </div>
 
-        <div class="ModalCompletTres" id="ModalCompletTres">
+        <div data-aos="fade-up" class="ModalCompletTres" id="ModalCompletTres">
           <h5 class="TituloCard">Rick and Morty</h5>
           <div class="ImagenProyectos">
             <img class="Proyectos" src="./Imágenes/Mortyimg.jpg" alt="">
@@ -345,7 +346,7 @@
           </div>
         </div>
 
-        <div class="ModalCompletCuatro" id="ModalCompletCuatro">
+        <div data-aos="fade-up" class="ModalCompletCuatro" id="ModalCompletCuatro">
           <h5 class="TituloCard">Crud de Usuarios</h5>
           <div class="ImagenProyectos">
             <img class="Proyectos" src="./Imágenes/Crud.jpg" alt="">
@@ -355,7 +356,7 @@
           </div>
         </div>
 
-        <div class="ModalCompletCinco" id="ModalCompletCinco">
+        <div data-aos="fade-up" class="ModalCompletCinco" id="ModalCompletCinco">
           <h5 class="TituloCard">Pokemon API</h5>
           <div class="ImagenProyectos">
             <img class="Proyectos" src="./Imágenes/PokemonApi.jpg" alt="">
@@ -365,7 +366,7 @@
           </div>
         </div>
 
-        <div class="ModalCompletSeis" id="ModalCompletSeis">
+        <div data-aos="fade-up" class="ModalCompletSeis" id="ModalCompletSeis">
           <h5 class="TituloCard">Ecommerce-React</h5>
           <div class="ImagenProyectos">
             <img class="Proyectos" src="./Imágenes/Ecomerce2.jpg" alt="">
@@ -665,6 +666,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
